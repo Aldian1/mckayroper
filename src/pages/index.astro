@@ -15,6 +15,20 @@ const posts = (await getCollection('blog')).sort(
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script type="application/ld+json">
+			{JSON.stringify({
+				'@context': 'https://schema.org',
+				'@type': 'Person',
+				name: 'Harry McKay-Roper',
+				url: new URL('/', Astro.site).toString(),
+				email: 'hello@harrymckayroper.com',
+				sameAs: [
+					'https://github.com/Aldian1',
+					'https://cal.com/harrymckayroper',
+					'https://imaginaryspace.co.uk',
+				],
+			})}
+		</script>
 	</head>
 	<body>
 		<Header />

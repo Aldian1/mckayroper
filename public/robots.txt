@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://harrymckayroper.com/sitemap-index.xml

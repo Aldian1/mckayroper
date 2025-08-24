@@ -16,5 +16,25 @@ const { Content } = await render(post);
 ---
 
 <BlogPost {...post.data}>
+	<script type="application/ld+json">
+		{JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'BlogPosting',
+			headline: post.data.title,
+			description: post.data.description,
+			datePublished: post.data.pubDate,
+			dateModified: post.data.updatedDate ?? post.data.pubDate,
+			image: post.data.heroImage ? new URL(post.data.heroImage.src, Astro.site).toString() : undefined,
+			mainEntityOfPage: new URL(`/blog/${post.id}/`, Astro.site).toString(),
+			author: {
+				'@type': 'Person',
+				name: 'Harry McKay-Roper',
+			},
+			publisher: {
+				'@type': 'Person',
+				name: 'Harry McKay-Roper',
+			},
+		})}
+	</script>
 	<Content />
 </BlogPost>

@@ -1,0 +1,15 @@
+/* TEAM */
+Author: Harry McKay-Roper
+Site: https://harrymckayroper.com
+Email: hello@harrymckayroper.com
+GitHub: https://github.com/Aldian1
+
+/* SITE */
+Language: en
+Generator: Astro
+
+/* POLICY */
+Crawling: Allowed
+AI-Training: Allowed
+Attribution: Appreciated
+Sitemap: https://harrymckayroper.com/sitemap-index.xml

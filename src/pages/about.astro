@@ -9,6 +9,22 @@ import Layout from '../layouts/BlogPost.astro';
 	description="A bit about Harry McKay-Roper"
 	pubDate={new Date()}
 >
+	<script type="application/ld+json">
+		{JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'Person',
+			name: 'Harry McKay-Roper',
+			description: 'Founder of Imaginary Space. Writing on product, AI, and space.',
+			image: new URL('/src/assets/me.png', Astro.site).toString(),
+			email: 'hello@harrymckayroper.com',
+			url: new URL('/about/', Astro.site).toString(),
+			sameAs: [
+				'https://github.com/Aldian1',
+				'https://cal.com/harrymckayroper',
+				'https://imaginaryspace.co.uk',
+			],
+		})}
+	</script>
 	<div style="text-align: center; margin-bottom: 1rem;">
 		<Image src={AboutHeroImage} width={250} height={120} alt="Harry McKay-Roper" style="border-radius: 0%; display: inline-block;" />
 	</div>
