@@ -24,7 +24,7 @@ const { Content } = await render(post);
 			description: post.data.description,
 			datePublished: post.data.pubDate,
 			dateModified: post.data.updatedDate ?? post.data.pubDate,
-			image: post.data.heroImage ? new URL(post.data.heroImage.src, Astro.site).toString() : undefined,
+			image: post.data.heroImage ? (typeof post.data.heroImage === 'string' ? new URL(post.data.heroImage, Astro.site).toString() : new URL(post.data.heroImage.src, Astro.site).toString()) : undefined,
 			mainEntityOfPage: new URL(`/blog/${post.id}/`, Astro.site).toString(),
 			author: {
 				'@type': 'Person',

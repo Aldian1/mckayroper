@@ -1,5 +1,6 @@
 // @ts-check
 
+import mermaid from 'astro-mermaid';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
@@ -7,5 +8,9 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://harrymckayroper.com',
-	integrations: [mdx(), sitemap()],
+	integrations: [
+		mermaid(), // Must come before mdx for markdown processing
+		mdx(),
+		sitemap(),
+	],
 });

@@ -12,7 +12,13 @@ const blog = defineCollection({
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
-			heroImage: image().optional(),
+			// URLs (http/https or / from public) use img tag; local paths use image() for optimization
+			heroImage: z
+				.union([
+					z.string().refine((s) => s.startsWith('http') || s.startsWith('/')),
+					image(),
+				])
+				.optional(),
 		}),
 });
 
