@@ -13,28 +13,31 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
+const structuredData = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'BlogPosting',
+	headline: post.data.title,
+	description: post.data.description,
+	datePublished: post.data.pubDate,
+	dateModified: post.data.updatedDate ?? post.data.pubDate,
+	image: post.data.heroImage
+		? typeof post.data.heroImage === 'string'
+			? new URL(post.data.heroImage, Astro.site).toString()
+			: new URL(post.data.heroImage.src, Astro.site).toString()
+		: undefined,
+	mainEntityOfPage: new URL(`/blog/${post.id}/`, Astro.site).toString(),
+	author: {
+		'@type': 'Person',
+		name: 'Harry McKay-Roper',
+	},
+	publisher: {
+		'@type': 'Person',
+		name: 'Harry McKay-Roper',
+	},
+});
 ---
 
 <BlogPost {...post.data}>
-	<script type="application/ld+json">
-		{JSON.stringify({
-			'@context': 'https://schema.org',
-			'@type': 'BlogPosting',
-			headline: post.data.title,
-			description: post.data.description,
-			datePublished: post.data.pubDate,
-			dateModified: post.data.updatedDate ?? post.data.pubDate,
-			image: post.data.heroImage ? (typeof post.data.heroImage === 'string' ? new URL(post.data.heroImage, Astro.site).toString() : new URL(post.data.heroImage.src, Astro.site).toString()) : undefined,
-			mainEntityOfPage: new URL(`/blog/${post.id}/`, Astro.site).toString(),
-			author: {
-				'@type': 'Person',
-				name: 'Harry McKay-Roper',
-			},
-			publisher: {
-				'@type': 'Person',
-				name: 'Harry McKay-Roper',
-			},
-		})}
-	</script>
+	<script type="application/ld+json" set:html={structuredData}></script>
 	<Content />
 </BlogPost>

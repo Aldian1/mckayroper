@@ -9,26 +9,26 @@ import FormattedDate from '../components/FormattedDate.astro';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 ).slice(0, 5);
+
+const structuredData = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'Person',
+	name: 'Harry McKay-Roper',
+	url: new URL('/', Astro.site).toString(),
+	email: 'hello@harrymckayroper.com',
+	sameAs: [
+		'https://github.com/Aldian1',
+		'https://cal.com/harrymckayroper',
+		'https://imaginaryspace.co.uk',
+	],
+});
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<script type="application/ld+json">
-			{JSON.stringify({
-				'@context': 'https://schema.org',
-				'@type': 'Person',
-				name: 'Harry McKay-Roper',
-				url: new URL('/', Astro.site).toString(),
-				email: 'hello@harrymckayroper.com',
-				sameAs: [
-					'https://github.com/Aldian1',
-					'https://cal.com/harrymckayroper',
-					'https://imaginaryspace.co.uk',
-				],
-			})}
-		</script>
+		<script type="application/ld+json" set:html={structuredData}></script>
 	</head>
 	<body>
 		<Header />
