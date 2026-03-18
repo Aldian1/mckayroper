@@ -1,6 +1,6 @@
 ---
 title: 'The goal is to travel a lot'
-description: "4 years of being a digital nomad"
+description: "Four years as a digital nomad — from landing in Argentina with $4,000 to five international trips in one year. Lessons on remote work and travel."
 pubDate: 'October 10 2025'
 heroImage: 'https://images.unsplash.com/photo-1758640920659-0bb864175983?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 ---

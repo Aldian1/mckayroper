@@ -1,0 +1,26 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Page not found — ${SITE_TITLE}`} description="The page you're looking for doesn't exist or has been moved." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section style="text-align: center; padding: 4em 1em;">
+				<h1>404 — Page not found</h1>
+				<p>The page you're looking for doesn't exist or has been moved.</p>
+				<p>
+					<a href="/">Go home</a> · <a href="/blog/">Browse all posts</a>
+				</p>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

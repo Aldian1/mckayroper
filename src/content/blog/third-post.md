@@ -1,6 +1,6 @@
 ---
 title: 'The goal is to sit very still'
-description: 'Why meditation rocks'
+description: 'After 7-8 years of daily meditation practice, here is what sitting still has taught me about focus, stress relief, and leading a team.'
 pubDate: 'Sep 8 2025'
 heroImage: 'https://images.unsplash.com/photo-1506602246821-e5a26d251e6f?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 ---
@@ -31,7 +31,7 @@ What thoughts do come, I let go rather quickly... and proper practice preaches t
 
 ## When
 
-When I return to my meditation im always at loss as to how I havent done for so long. The relief, despite brief, break from my thoughts is both europhic and clearing. I can think so much better about decisions I need to make after having sat for 10-20 minutes. Thats all it takes ! You can set a timer on your phone for 5 minutes everday and find that piece of the world where you truly feel at one with yourself.
+When I return to my meditation im always at loss as to how I havent done for so long. The relief, despite brief, break from my thoughts is both europhic and clearing. I can think so much better about decisions I need to make after having sat for 10-20 minutes. It's also had a real impact on my [approach to longevity](/blog/fourth-post/) and looking after myself in general. Thats all it takes ! You can set a timer on your phone for 5 minutes everday and find that piece of the world where you truly feel at one with yourself.
 
 ## Lets sit!
 

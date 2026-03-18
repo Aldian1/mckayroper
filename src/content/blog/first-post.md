@@ -1,6 +1,6 @@
 ---
 title: 'The goal is space'
-description: 'Why I do what I do'
+description: "Why I'm dedicating my life to getting humanity to space — and how AI and robotics are the path to making interstellar exploration real."
 pubDate: 'Aug 24 2025'
 heroImage: '../../assets/space.png'
 ---
@@ -18,7 +18,7 @@ Yet I believe, as a race, we still yearn to travel and explore.
 
 That quote from one of the early Russian rocket scientists has always stuck with me. It captures the restlessness I feel—and that I think many of us feel—about our place in the universe. We can't stay in the cradle forever. So what might a future Earth look like? How can we help humanity get to that point faster?
 
-The obvious clue: AI + Robots.
+The obvious clue: AI + Robots. I've written more about this in my deep dive on [agentic swarms and multi-agent AI](/blog/eighth-post/).
 
 Supercomputers will help us design new ships, hulls, and other objects to make our ascent possible.
 

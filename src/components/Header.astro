@@ -4,11 +4,11 @@ import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+	<nav aria-label="Main navigation">
+		<span class="site-title"><a href="/">{SITE_TITLE}</a></span>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href="/about/">About</HeaderLink>
 		</div>
 		<div class="social-links"></div>
 	</nav>
@@ -20,13 +20,13 @@ import HeaderLink from './HeaderLink.astro';
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
-	h2 {
+	.site-title {
 		margin: 0;
 		font-size: 1em;
 	}
 
-	h2 a,
-	h2 a.active {
+	.site-title a,
+	.site-title a.active {
 		text-decoration: none;
 	}
 	nav {

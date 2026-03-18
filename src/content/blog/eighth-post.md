@@ -93,7 +93,7 @@ I like the idea of some of the experiments I've seen online recently where peopl
 
 And with things like [Claude Code](https://claude.ai/code) and their Python or TypeScript setup, it's so much easier to put these multi-agent systems together now because frameworks like [Swarms](https://docs.swarms.ai/) and [OpenAI Swarm](https://github.com/openai/swarm) allow you to do it at scale really easily.
 
-My biggest thing is spending on API credits, especially when you're someone like me who likes to tinker and experiment.
+My biggest thing is spending on API credits, especially when you're someone like me who likes to tinker and experiment. As I wrote in [my first post](/blog/first-post/), this is all in service of a bigger goal — getting humanity to space.
 
 Which is why I think building a small cluster of GPUs and being able to run your own local LLMs with your own local inference is the real alpha at the moment in the AI world.
 

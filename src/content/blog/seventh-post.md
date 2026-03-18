@@ -30,7 +30,7 @@ Not in a “vision board” way. In a *physics* way.
 
 When you put your body in a different environment—especially somewhere with a higher bar—you start calibrating to it. You notice the service, the pace, the confidence. You absorb the standards without trying.
 
-That’s the hidden value of travel: it upgrades your reference points.
+That’s the hidden value of travel: it upgrades your reference points. I wrote more about this in [my post on life as a digital nomad](/blog/fifth-post/).
 
 They make you ask a dangerous question: *why can’t that be me?*
 

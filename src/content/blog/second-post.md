@@ -1,6 +1,6 @@
 ---
 title: 'The goal is time management'
-description: 'Why I do what I do'
+description: 'Time blocking, intake trays, and protecting your calendar — three practical time management strategies for founders and busy teams.'
 pubDate: 'Sep 5 2025'
 heroImage: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 ---

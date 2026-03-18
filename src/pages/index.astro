@@ -10,7 +10,7 @@ const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 ).slice(0, 5);
 
-const structuredData = JSON.stringify({
+const personSchema = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@type': 'Person',
 	name: 'Harry McKay-Roper',
@@ -22,20 +22,28 @@ const structuredData = JSON.stringify({
 		'https://imaginaryspace.co.uk',
 	],
 });
+
+const websiteSchema = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: SITE_TITLE,
+	url: new URL('/', Astro.site).toString(),
+});
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<script type="application/ld+json" set:html={structuredData}></script>
+		<script type="application/ld+json" set:html={personSchema}></script>
+		<script type="application/ld+json" set:html={websiteSchema}></script>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<section>
-				<h1>Welcome</h1>
-				<p>This is my personal site where I share my thoughts on Space, Ai, Robotics and futurism. You can subscribe by bookmarking this site.</p>
+				<h1>Harry McKay-Roper — Writing on AI, Space & Product</h1>
+				<p>Founder of Imaginary Space. I write about agentic AI, swarm systems, product design, and the path to getting humanity to space. Bookmark this site to follow along.</p>
 			</section>
 			<section>
 				<h2>Latest posts</h2>
@@ -49,7 +57,7 @@ const structuredData = JSON.stringify({
 						</li>
 					))}
 				</ul>
-				<p><a href="/blog">View all posts →</a></p>
+				<p><a href="/blog/">View all posts →</a></p>
 			</section>
 		</main>
 		<Footer />

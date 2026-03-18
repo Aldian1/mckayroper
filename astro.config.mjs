@@ -8,6 +8,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://harrymckayroper.com',
+	trailingSlash: 'always',
 	integrations: [
 		mermaid(), // Must come before mdx for markdown processing
 		mdx(),

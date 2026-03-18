@@ -9,12 +9,24 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const structuredData = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'CollectionPage',
+	name: 'All posts',
+	description: 'Articles on AI, agentic swarms, product design, and space by Harry McKay-Roper.',
+	url: new URL('/blog/', Astro.site).toString(),
+});
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={`${SITE_TITLE} — All posts`} description={SITE_DESCRIPTION} />
+		<BaseHead
+			title={`${SITE_TITLE} — All posts`}
+			description="Articles on AI, agentic swarms, product design, and space by Harry McKay-Roper."
+		/>
+		<script type="application/ld+json" set:html={structuredData}></script>
 	</head>
 	<body>
 		<Header />

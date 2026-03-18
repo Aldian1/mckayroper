@@ -1,6 +1,6 @@
 ---
-title: 'The goal is to launch you ai startup'
-description: "Why going live right this second, is the key to success"
+title: 'The goal is to launch your AI startup'
+description: "Lessons from teaching vibe coding at Babson College — why launching your AI startup today, not tomorrow, is the real key to building something great."
 pubDate: 'Nov 15 2025'
 heroImage: 'https://plus.unsplash.com/premium_photo-1681488422749-29864bdcbf42?q=80&w=2743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 ---
@@ -60,6 +60,8 @@ So if I can say anything to get you hyped it would be:
 - Things can change overnight. We went from doing one livestream to seeing an explosion in our growth $20,000 -> $1,000,000 in 7 months.
 
 - It's okay to plan... but execution has so many learnings. Keep making stuff everyday.
+
+If you're curious about the AI side of building, I've written a deeper dive into [agentic swarms and multi-agent systems](/blog/eighth-post/).
 
 ## Onward plans
 
