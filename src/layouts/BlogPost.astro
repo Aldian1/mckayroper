@@ -27,12 +27,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				margin-right: auto;
 				padding: 0 1em;
 				box-sizing: content-box;
+				display: flex;
+				justify-content: center;
 			}
+			/* Cap height so portrait heroes (e.g. phone screenshots) do not dominate the viewport */
 			.hero-image img {
 				display: block;
-				width: 100%;
 				max-width: 100%;
+				max-height: min(48vh, 22rem);
+				width: auto;
 				height: auto;
+				object-fit: contain;
 				margin: 0 auto;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
