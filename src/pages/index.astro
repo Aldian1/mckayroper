@@ -50,7 +50,7 @@ const websiteSchema = JSON.stringify({
 				<ul>
 					{posts.map((post) => (
 						<li>
-							<a href={`/blog/${post.id}/`}>
+							<a href={`/blog/${post.data.slug}/`}>
 								{post.data.title}
 								<span style="color: rgb(var(--gray));"> — <FormattedDate date={post.data.pubDate} /></span>
 							</a>

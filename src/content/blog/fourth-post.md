@@ -1,5 +1,6 @@
 ---
 title: 'The goal is longevity'
+slug: founder-longevity-health-performance
 description: "What three consecutive all-nighters taught me about longevity, health, and why founders need to invest in their bodies to sustain performance."
 pubDate: 'Sep 24 2025'
 heroImage: 'https://images.unsplash.com/photo-1758640920659-0bb864175983?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -37,7 +38,7 @@ So I’ve got a few things up my sleeve that I’ll try this month and report ba
 1. Portable sauna tent. Best $500 I’ve ever spent—sweating it out feels purifying.  
 2. Gym in your apartment building. Just roll out of bed and go.  
 3. Removing anything from your apartment that isn’t helping you.  
-4. Hydrating, [meditating](/blog/third-post/), and recognizing when you need a break.  
+4. Hydrating, [meditating](/blog/meditation-daily-practice-focus/), and recognizing when you need a break.  
 5. Blocking breaks into your day and being intentional with your time.  
 
 The main thing is just having a plan and committing to it.  

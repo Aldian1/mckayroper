@@ -1,0 +1,104 @@
+{
+	"redirects": [
+		{
+			"source": "/blog/first-post",
+			"destination": "/blog/the-goal-is-space/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/first-post/",
+			"destination": "/blog/the-goal-is-space/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/second-post",
+			"destination": "/blog/the-goal-is-time-management/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/second-post/",
+			"destination": "/blog/the-goal-is-time-management/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/third-post",
+			"destination": "/blog/meditation-daily-practice-focus/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/third-post/",
+			"destination": "/blog/meditation-daily-practice-focus/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/fourth-post",
+			"destination": "/blog/founder-longevity-health-performance/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/fourth-post/",
+			"destination": "/blog/founder-longevity-health-performance/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/fifth-post",
+			"destination": "/blog/digital-nomad-remote-work-travel/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/fifth-post/",
+			"destination": "/blog/digital-nomad-remote-work-travel/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/sixth-post",
+			"destination": "/blog/launch-ai-startup-vibe-coding/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/sixth-post/",
+			"destination": "/blog/launch-ai-startup-vibe-coding/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/seventh-post",
+			"destination": "/blog/travel-shortcut-ambition/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/seventh-post/",
+			"destination": "/blog/travel-shortcut-ambition/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/eighth-post",
+			"destination": "/blog/agentic-swarms-multi-agent-ai/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/eighth-post/",
+			"destination": "/blog/agentic-swarms-multi-agent-ai/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/ninth-post",
+			"destination": "/blog/openclaw-weekend-first-build/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/ninth-post/",
+			"destination": "/blog/openclaw-weekend-first-build/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/shipping-build-feedback-loop",
+			"destination": "/blog/openclaw-weekend-first-build/",
+			"permanent": true
+		},
+		{
+			"source": "/blog/shipping-build-feedback-loop/",
+			"destination": "/blog/openclaw-weekend-first-build/",
+			"permanent": true
+		}
+	]
+}

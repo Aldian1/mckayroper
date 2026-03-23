@@ -1,6 +1,7 @@
 ---
 
 title: 'Travel as a Shortcut to Ambition'
+slug: travel-shortcut-ambition
 description: "Luxury hotels, Iguazú Falls, and why seeing how other people live can rewire what you believe is possible."
 pubDate: 'January 27 2026'
 heroImage: 'https://images.unsplash.com/photo-1544986581-efac024faf62'
@@ -30,7 +31,7 @@ Not in a “vision board” way. In a *physics* way.
 
 When you put your body in a different environment—especially somewhere with a higher bar—you start calibrating to it. You notice the service, the pace, the confidence. You absorb the standards without trying.
 
-That’s the hidden value of travel: it upgrades your reference points. I wrote more about this in [my post on life as a digital nomad](/blog/fifth-post/).
+That’s the hidden value of travel: it upgrades your reference points. I wrote more about this in [my post on life as a digital nomad](/blog/digital-nomad-remote-work-travel/).
 
 They make you ask a dangerous question: *why can’t that be me?*
 

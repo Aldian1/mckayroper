@@ -1,5 +1,6 @@
 ---
 title: 'The goal is to launch your AI startup'
+slug: launch-ai-startup-vibe-coding
 description: "Lessons from teaching vibe coding at Babson College — why launching your AI startup today, not tomorrow, is the real key to building something great."
 pubDate: 'Nov 15 2025'
 heroImage: 'https://plus.unsplash.com/premium_photo-1681488422749-29864bdcbf42?q=80&w=2743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -61,7 +62,7 @@ So if I can say anything to get you hyped it would be:
 
 - It's okay to plan... but execution has so many learnings. Keep making stuff everyday.
 
-If you're curious about the AI side of building, I've written a deeper dive into [agentic swarms and multi-agent systems](/blog/eighth-post/).
+If you're curious about the AI side of building, I've written a deeper dive into [agentic swarms and multi-agent systems](/blog/agentic-swarms-multi-agent-ai/).
 
 ## Onward plans
 

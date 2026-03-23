@@ -5,11 +5,12 @@ export async function GET() {
 		.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 		.map((post) => ({
 			id: post.id,
+			slug: post.data.slug,
 			title: post.data.title,
 			description: post.data.description,
 			pubDate: post.data.pubDate,
 			updatedDate: post.data.updatedDate ?? null,
-			url: `/blog/${post.id}/`,
+			url: `/blog/${post.data.slug}/`,
 		}));
 
 	return new Response(JSON.stringify({ posts }), {

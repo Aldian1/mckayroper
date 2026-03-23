@@ -8,6 +8,8 @@ const blog = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
+			/** URL path segment under /blog/ — use lowercase kebab-case for SEO. */
+			slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
 			description: z.string(),
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
