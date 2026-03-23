@@ -105,6 +105,16 @@ img {
 	height: auto;
 	border-radius: 8px;
 }
+/* Markdown / MDX in blog: stay within the prose column */
+.prose img,
+.prose picture img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
